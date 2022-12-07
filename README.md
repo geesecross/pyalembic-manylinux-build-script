@@ -25,6 +25,6 @@ docker ... \
 
 The script automatically download the required source codes from the web.
 
-Note that the Boost source code might be take a long time to download. If you prepare the Boost source code as `boost.tar.gz` into your working directory, the script will bypass the download phase.
+Note that the Boost source code Note that downloading the Boost source code might take a long time. If you prepare the Boost source code as `boost.tar.gz` into your working directory, the script will bypass the download phase.
 
 For more details, refer `build-manylinux.sh` script.
