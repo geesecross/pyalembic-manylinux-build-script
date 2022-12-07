@@ -37,7 +37,7 @@ pushd /tmp
         git clone --branch ${IMATH_BRANCH} --depth 1 https://github.com/AcademySoftwareFoundation/Imath.git
     fi
     pushd Imath
-        # Dark magic to work with recent CMake versions(>=3.18) & manylinux docker image.
+        # Dark magic to work with recent CMake versions(>=3.24) in manylinux image.
         # manylinux dockers do not have static library of Python (libpython*.so)
         # and we cannot meet Development or Development.Embed target requirement.
         # Hopefully, the python embedding is actually not required to make modules,
