@@ -14,7 +14,7 @@ docker ... -e PYTHON_TARGETS="python3.7 python3.8" ...
 
 Generated wheel binary is designed to "batteries-included." It includes `imath` & `imathnumpy` module and some shared libraries.
 
-You can specify which version of [alembic](https://github.com/alembic/alembic), [Imath](https://github.com/AcademySoftwareFoundation/Imat), and [boost](https://github.com/boostorg/boost) to build:
+You can specify which version of [alembic](https://github.com/alembic/alembic), [Imath](https://github.com/AcademySoftwareFoundation/Imath), and [boost](https://github.com/boostorg/boost) to use:
 ```
 docker ... \
     -e BOOST_SRC_URL=https://boostorg.jfrog.io/artifactory/main/release/1.80.0/source/boost_1_80_0.tar.gz \
